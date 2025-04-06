@@ -1,0 +1,72 @@
+# Arquivo .gitignore para projetos Python
+
+### Python ###
+# Bytecode e cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Pip/Setuptools
+pip-selfcheck.json
+pip-log.txt
+
+# Distribuição / instalação
+*.egg-info/
+*.egg
+dist/
+build/
+sdist/
+*.so
+
+# Notebooks e IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Testes e cobertura
+.coverage
+htmlcov/
+.pytest_cache/
+*.mo
+*.pot
+
+### IDEs ###
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.iml
+
+# Eclipse
+.pydevproject
+.project
+.settings/
+
+### Outros ###
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs e bancos de dados
+*.log
+*.sqlite3
+
+# Arquivos de configuração local
+config_local.py
+secrets.py
+
+# Arquivos temporários
+*.swp
+*.bak
+~$*
